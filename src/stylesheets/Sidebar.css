@@ -1,0 +1,33 @@
+.sidebar {
+    width: 250px; /* Adjust the width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f8f9fa; /* Light background */
+    padding-top: 20px; /* Space at the top */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  /* Add shadow for depth */
+   align-items: start;
+  }
+  
+  .sidebar a {
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background-color: #ddd; /* Highlight on hover */
+  }
+  
+  .sidebar a.active {
+    background-color: #007bff; /* Active link color */
+    color: white;
+  }
+  
+  .sidebar a i {
+    margin-right: 15px;
+   /* Space between icon and text */
+  }
+  
